@@ -20,5 +20,6 @@ func comparePasswords(s1, s2 string) bool{
     return true
 }
 ```
+
 5. Develop a program that exploits the delays in the time to help determine what the password is.  You may need to step through and run the program multiple times to figure it out but it is doable! Example is provided in the github repo as timingBruteforce.py
 
