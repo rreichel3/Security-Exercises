@@ -1,6 +1,6 @@
 <?php
   require_once('recaptchalib.php');
-  $privatekey = "6LdmRw0UAAAAAD4xFHzU2UWsZOxkjFGma_ZEMqk6";
+  $privatekey = "FILL IN WITH YOURS";
   $resp = recaptcha_check_answer ($privatekey,
                                 $_SERVER["REMOTE_ADDR"],
                                 $_POST["recaptcha_challenge_field"],
